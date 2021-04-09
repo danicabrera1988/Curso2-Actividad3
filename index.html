@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+  <head>
+      <meta charset="UTF-8">
+      <title>Hotel</title>
+      <link rel="stylesheet" type="text/css" href="/css/estilos.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+  <!---- CABECERA ---->
+      <header id="cabecera" class=" fixed-top d-flex align-items-center header-transparent header-scrolled color-header-pie shadow">
+        <nav class=" navbar container-fluid  navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              
+              <!--Logo-->
+                <a class="navbar-brand " href="index.html">
+                  <img class="rounded-circle border border-3" width="200" height="60" src="imagen/logo.png" alt="Logo">
+                </a>
+              
+                <!--Menu-->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
+                  <div class="navbar-nav mx-auto fs-5 fw-bold text-center text-uppercase">
+                    <a class="nav-link active text-warning" aria-current="page" href="#" >Home</a>
+                    <a class="nav-link text-white" href="#habitaciones" >Habitaciones</a>
+                    <a class="nav-link text-white" href="#actividades">Actividades</a>
+                    <a class="nav-link text-white" href="#tarifas">Tarifas</a>
+                    <a class="nav-link disabled text-white" href="#">Galeria</a>
+                    <a class="nav-link text-white " href="#opiniones">Testimonios</a>
+                    <a class="nav-link disabled text-white" href="#">Contacto</a>
+                  </div>
+                </div>
+
+            </div>
+        </nav>      
+      </header>
+      
+  <!---- CONTENIDO ---->
+          
+      <!--Slider-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">    
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <!--Fotos-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagen/foto-slider.jpg" class="d-block w-100" width="750" height="750" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagen/foto-slider2.jpg" class="d-block w-100" width="750" height="750" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagen/foto-slider3.jpg" class="d-block w-100" width="750" height="750" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+
+      <!--Habitaciones-->
+      <div id="habitaciones" class="color padding fondo1 shadow">
+        <div class="container">
+            <div class="text-center">
+              <h2 class="fs-10 fw-bold text-uppercase">HABITACIONES</h2>
+              <p class="text text-center fw-bold fs-5 pt-3">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta ex nulla quo assumenda.
+              </p>
+            </div>  
+            <div class="text-center pt-5 pb-5" >
+              <div class="d-flex bd-highlight justify-content-around" >
+                <div class="card border-warning shadow-lg" style="width: 380px;" >
+                    <img src="imagen/hab-superior.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title pt-4 pb-3 fs-4">Habitación superior</h5>
+                      <a href="#" class="btn btn-warning col-6 mx-auto text-white fw-bold">MÁS INFO</a>
+                    </div>
+                </div>
+                <div class="card border-warning shadow-lg" style="width: 380px;" >
+                    <img src="imagen/hab-luxury.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title pt-4 pb-3 fs-4">Habitación Luxury</h5>
+                      <a href="#" class="btn btn-warning col-6 mx-auto text-white fw-bold">MÁS INFO</a>
+                    </div>
+                </div>
+                <div class="card border-warning shadow-lg" style="width: 380px;" >
+                    <img src="imagen/hab-sufitel.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title pt-4 pb-3 fs-4">Habitación Suite</h5>
+                      <a href="#" class="btn btn-warning col-6 mx-auto text-white fw-bold">MÁS INFO</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+          
+      <!--Actividades-->
+      <div id="actividades" class="padding shadow">
+        <div class="container">
+            <div class="text-center">
+              <h2 class="fs-10 fw-bold text-uppercase">ACTIVIDADES</h2>
+              <p class="text text-center text-warning fw-bold fs-5 pt-3">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta ex nulla quo assumenda.
+              </p>
+            </div>  
+            <div class="pt-5 pb-5" >
+              <div class="card mb-3 bg-light shadow" style="max-width: 100%;">
+                <div class="row g-0 ">
+                  <div class="col-md-3">
+                    <img src="imagen/actividad1.jpg" style="width: 300px; height: 180px;" alt="...">
+                  </div>
+                  <div class="col-md-9 ">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bolder">Actividad 1</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsam exercitationem ullam quae sint dolorem id illum consectetur magni architecto reprehenderit, doloremque, et iure debitis corporis illo atque placeat! Vel!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>           
+              <div class="card mb-3 bg-light shadow" style="max-width: 100%;">
+                <div class="row g-0 ">
+                  <div class="col-md-3">
+                    <img src="imagen/actividad2.jpg" style="width: 300px; height: 180px;" alt="...">
+                  </div>
+                  <div class="col-md-9 ">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bolder">Actividad 2</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsam exercitationem ullam quae sint dolorem id illum consectetur magni architecto reprehenderit, doloremque, et iure debitis corporis illo atque placeat! Vel!</p>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsam exercitationem ullam quae sint dolorem id illum consectetur magni architecto reprehenderit, doloremque, et iure debitis corporis illo atque placeat! Vel!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 bg-light shadow" style="max-width: 100%;">
+                <div class="row g-0 ">
+                  <div class="col-md-3">
+                    <img src="imagen/actividad3.jpg" style="width: 300px; height: 180px;" alt="...">
+                  </div>
+                  <div class="col-md-9 ">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bolder">Actividad 3</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsam exercitationem ullam quae sint dolorem id illum consectetur magni architecto reprehenderit, doloremque, et iure debitis corporis illo atque placeat! Vel!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 bg-light shadow" style="max-width: 100%;">
+                <div class="row g-0 ">
+                  <div class="col-md-3">
+                    <img src="imagen/actividad4.jpg" style="width: 300px; height: 180px;" alt="...">
+                  </div>
+                  <div class="col-md-9 ">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bolder">Actividad 4</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsam exercitationem ullam quae sint dolorem id illum consectetur magni architecto reprehenderit, doloremque, et iure debitis corporis illo atque placeat! Vel!</p>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. doloremque, et iure debitis corporis illo atque placeat! Vel!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>           
+            </div>
+        </div>
+      </div>
+          
+      <!--Tarifas-->
+      <div id="tarifas" class=" padding fondo2 shadow">
+        <div class="text-center">
+          <h2 class="fs-10 fw-bold text-uppercase">TARIFAS</h2>
+        </div> 
+        <div class="container">
+          <div class="text-center  pt-5 pb-5" >
+            <table class="table fs-5 " style="margin: 0 auto; width: 800px; height: 160px;">
+              <thead>
+                <tr class="bg-secondary text-white ">
+                  <th scope="col"></th>
+                  <th scope="col">MAYO 2021</th>
+                  <th scope="col">JUNIO 2021</th>
+                  <th scope="col">JULIO 2021</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Habitación Superior</th>
+                  <td>$4.000</td>
+                  <td>$6.000</td>
+                  <td>$7.000</td>
+                </tr>
+                <tr>
+                  <th scope="row">Habitación Luxury</th>
+                  <td>$6.000</td>
+                  <td>$8.000</td>
+                  <td>$9.000</td>
+                </tr>
+                <tr>
+                  <th scope="row">Habitación Suite</th>
+                  <td>$8.000</td>
+                  <td>$10.000</td>
+                  <td>$11.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <br>
+          <div style="text-align: center;">
+            <a href="#" class="btn btn btn-light col-2 mx-auto fw-bold">Reservar</a>
+          </div>
+          <div class="pt-5 pb-4">
+            <p style="padding: 40px;">
+              <b>CONDICIONES GENERALES:</b><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+              Consequuntur, sed.Unde quidem nostrum placeat quasi nihil ad sit, quae ullam ab,laboriosam 
+              consequatur provident laudantium fugiat pariatur accusantium similique veritatis.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+              Consequuntur, sed.Unde quidem nostrum placeat quasi nihil ad sit, quae ullam ab,laboriosam 
+              consequatur provident laudantium fugiat pariatur accusantium similique veritatis.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--Opiniones-->
+      <div id="opiniones" class="color padding shadow">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="fs-10 fw-bold text-uppercase">OPINIONES</h2>
+          </div>  
+          <div class="pt-5 pb-5">
+            <div class="card-group shadow">
+              <div class="card">
+                <img src="imagen/estrellas.png" class="card-img-top" alt="..." style="width: 130px; height: 50px;">
+                <div class="card-body">
+                  <h5 class="card-title">Valoración 1</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sequi commodi corporis aut, voluptatum quos nisi id eum blanditiis fugiat impedit delectus similique dolorum reprehenderit autem asperiores.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Hace 10 horas</small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="imagen/estrellas.png" class="card-img-top" alt="..." style="width: 130px; height: 50px;">
+                <div class="card-body">
+                  <h5 class="card-title">Valoración 2</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sequi commodi corporis aut, voluptatum quos nisi id eum blanditiis fugiat impedit delectus similique dolorum reprehenderit autem asperiores, corrupti animi. Aspernatur!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Hace 2 semanas</small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="imagen/estrellas.png" class="card-img-top" alt="..." style="width: 130px; height: 50px;">
+                <div class="card-body">
+                  <h5 class="card-title">Valoración 3</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sequi commodi corporis aut.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Hace 1 mes</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+  <!---- PIE DE PAGINA ---->
+      <footer id="pie" class=" pt-3 pb-3 color-header-pie" style="text-align: center;">
+          <p class="text-white align-middle">&copy; 2021 | Daniela Cabrera</p>
+      </footer>
+
+  <!--BOOTSTRAP-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    
+  </body>
+
+</html>
